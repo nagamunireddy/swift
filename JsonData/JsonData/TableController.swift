@@ -114,7 +114,6 @@ class TableController: UITableViewController {
         
         
         DispatchQueue.main.async(execute: {self.do_table_refresh()})
-//         DispatchQueue.main.async(execute: {self.do_table_refresh()})
     }
     
     func do_table_refresh()
