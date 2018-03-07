@@ -1,18 +1,15 @@
 //
 //  heroViewController.swift
-//  Dota2Heroes
+//  Dota
 //
-//  Created by Adroitent INC on 05/03/18.
+//  Created by Adroitent INC on 06/03/18.
 //  Copyright © 2018 Adroitent INC. All rights reserved.
 //
 
 import UIKit
 
-
-
 class heroViewController: UIViewController {
-    
-    
+
     
     @IBOutlet var legslbl: UILabel!
     @IBOutlet var attacklbl: UILabel!
@@ -25,6 +22,5 @@ class heroViewController: UIViewController {
         attributelbl.text = hero?.primary_attr
         attacklbl.text = hero?.attack_type
         legslbl.text = "\((hero?.legs)!)"
+    }
 }
-}
-
